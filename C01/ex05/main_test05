@@ -1,0 +1,13 @@
+
+
+
+string[] || Pode usar o [] no lugar do * quando quiser limitar o numero de casinhas.
+
+
+int        main(void)
+{
+    char string[] = "laranja";
+    char *ptr = &string[0];
+    
+    ft_putstr(ptr);
+}

@@ -1,0 +1,14 @@
+
+
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char name[] = "NAO TEM BISCOITO";
+
+    ft_strlowcase(name);
+    printf("%s", name);
+    return (0);
+}

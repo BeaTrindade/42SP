@@ -1,0 +1,13 @@
+
+
+
+#include <stdio.h>
+int main()
+{
+    int    a = 24;
+    
+    printf("Valor antes: %d\n", a);
+    ft_ft(&a);
+    printf("Valor depois: %d\n", a);
+}
+

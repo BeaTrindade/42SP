@@ -1,0 +1,14 @@
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	char memoria[21];
+	char name[] = "Beah 123";
+	
+	ft_strncpy(memoria, name,7);
+	printf("%s", memoria);
+	
+	return (0);	
+}

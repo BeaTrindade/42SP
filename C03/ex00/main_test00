@@ -1,0 +1,28 @@
+
+s1[posicao]
+
+//DESCRIÇÃO
+       A função strcmp() compara as duas strings s1 e s2. A localidade não é levada em consideração (para uma comparação com reconhecimento de localidade, consulte strcoll(3)). Isto
+       retorna um número inteiro menor, igual ou maior que zero se s1 for encontrado, respectivamente, menor que, para corresponder ou maior que s2.
+
+       A função strncmp() é semelhante, exceto que compara apenas os primeiros (no máximo) n bytes de s1 e s2.
+
+//VALOR DE RETORNO
+       As funções strcmp() e strncmp() retornam um inteiro menor, igual ou maior que zero se s1 (ou os primeiros n bytes dele) for encontrado, re‐
+       respectivamente, ser menor que, igualar ou ser maior que s2.
+
+
+#include <stdio.h>
+#include <string.h>
+
+int		ft_strcmp(char *s1, char *s2);
+
+int		main(void)
+{
+	char	*str1;
+	char	*str2;
+
+	str1 = "adwwafwDWQfw";
+	str2 = "adwwafwDWQf";
+	printf("%d\n", ft_strcmp(str1, str2));
+}

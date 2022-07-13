@@ -1,0 +1,16 @@
+
+
+
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char alfabeto[] = "beah";
+    
+    int x = ft_str_is_lowercase(alfabeto);
+    printf("%d", x);
+    
+    return (0);
+}

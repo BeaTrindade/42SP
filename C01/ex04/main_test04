@@ -1,0 +1,14 @@
+
+
+
+#include <stdio.h>
+int main()
+{
+    int a = 50;
+    int b = 5;
+    
+    ft_ultimate_div_mod(&a, &b);
+    printf("Resultado da divisão: %d\n", a);
+    printf("Resto: %d\n", b);
+}
+

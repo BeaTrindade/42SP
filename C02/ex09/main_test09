@@ -1,0 +1,16 @@
+
+
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char name[] = "oi beah oi, tudo bem?";
+
+    ft_strcapitalize(name);
+    printf("%s", name);
+    return (0);
+}
+
+

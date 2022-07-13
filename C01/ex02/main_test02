@@ -1,0 +1,17 @@
+
+
+SWAP = TROCA
+
+
+#include <stdio.h>
+int main()
+{
+    int x = 777;
+    int y = 1024;
+
+    printf("X antes: %d\n", x);
+    printf("Y antes: %d\n", y);
+    ft_swap(&x, &y);
+    printf("\nX depois: %d\n", x);
+    printf("Y depois: %d\n", y);
+}

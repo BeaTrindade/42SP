@@ -1,0 +1,18 @@
+
+
+
+	if (!(str[i] >= '0' && str[i] <= '9'))
+//!// Significa que estou negando... Se não for numero executa o 0, se for executa 1.
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char numero[] = "123hut";
+    
+    int x = ft_str_is_numeric(numero);
+    printf("%d", x);
+    
+    return (0);
+}

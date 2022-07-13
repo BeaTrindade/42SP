@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+int        main(void)
+{
+    char    string[] = "biscoito";
+    char    *ptr = &string[0];
+    int    x;
+    
+    x = ft_strlen(ptr);
+    printf	(": %d\n", x);
+}
+	
+___________________________________________________
+
+	int main(void)
+{
+	char *str;
+	str = "Vai Tomar o Copo";
+	ft_strlen(str);
+	return(0);
+}

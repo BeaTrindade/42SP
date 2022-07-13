@@ -1,0 +1,14 @@
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char name[] = "HUHEW";
+    
+    int x = ft_str_is_alpha(name);
+    printf("%d", x);
+    
+    return (0);
+}
+

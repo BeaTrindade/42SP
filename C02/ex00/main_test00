@@ -1,0 +1,13 @@
+
+
+#include <stdio.h>
+
+int main(void)
+{
+	char destine[10];
+	char *ptr_retorno;
+
+	ptr_retorno = ft_strcpy(destine, "oi");
+	printf("%s", ptr_retorno);
+	return (0);
+}

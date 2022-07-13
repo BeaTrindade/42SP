@@ -1,0 +1,29 @@
+
+
+DIV: divisão.
+MOD: Modulo, operação que da o resto da operação.
+
+a=10 / b=5 =2 //Resultado
+0 //RESTO
+
+a=10 / b=3 =3 //Resultado
+1 //RESTO
+_____________________________________________________________
+
+#include <stdio.h>
+int    main()
+{
+    int a = 10;
+    int b = 5;
+    int div = 0;
+    int mod = 0;
+    
+    printf("Valor de a: %d\n" ,a);
+    printf("Valor de b:%d\n" ,b);
+    printf("Valor arbitrário div: %d\n" ,div);
+    printf("Valor arbitrário do resto: %d\n" ,mod);
+    ft_div_mod(a, b, &div, &mod);
+    printf("\n Resultado Divisão:%d\n" ,div);
+    printf("Resto: %d\n" ,mod);
+}
+

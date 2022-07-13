@@ -1,0 +1,15 @@
+
+
+
+#include <stdio.h>
+
+int main (void) 
+{
+    char name[] = "eu nao sou crazy;
+
+    ft_strupcase(name);
+    printf("%s", name);
+    return (0);
+}
+
+
